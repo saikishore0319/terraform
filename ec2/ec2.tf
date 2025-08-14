@@ -1,6 +1,6 @@
 #key pair
 resource "aws_key_pair" "deployer" {
-  key_name = "my_key"
+  key_name = "${var.env}-my_key"
   public_key = file("my_key.pub")
 }
 
