@@ -1,0 +1,9 @@
+# Ignore Terraform cache/state in all directories
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/terraform.tfstate.d/
+
+# Ignore your SSH keys
+ec2/my_key
+ec2/my_key.pub
