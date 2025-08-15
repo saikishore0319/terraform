@@ -7,3 +7,4 @@
 # Ignore your SSH keys
 ec2/my_key
 ec2/my_key.pub
+terra-key.pem
