@@ -19,6 +19,6 @@ variable "aws_default_prod_volume_size" {
 
 
 variable "env" {
-    default = "production"
+    default = "dev"
     type = string
 }
